@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpringbootApplication {
     @RequestMapping("/")
     public static String index() {
-        return "hello spring boot1";
+        return "hello spring boot2";
     }
 
     public static void main(String[] args) {
